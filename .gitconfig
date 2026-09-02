@@ -1,0 +1,19 @@
+[user]
+	name = josilandio
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[alias]
+	logs = log --oneline
+	amend = commit --amend
+	create = checkout -b
+	branchs = branch -a
+	delet = branch -d
+	rname = branch -m
+	return = checkout
+[core]
+	autocrlf = input
+	editor = nano
+[pull]
+	rebase = true
